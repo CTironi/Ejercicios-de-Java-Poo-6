@@ -12,7 +12,7 @@ public class Main {
         Scanner entrada = new Scanner(System.in);
 
         for (int i = 1; i <= 3; i++) {
-            System.out.println("Ingrese Nombre, director y año de extreno de la pelicula " + i );
+            System.out.println("Ingrese Nombre, director y año de estreno de la pelicula " + i);
             setPeliculas.add(new Peliculas(entrada.next(), entrada.next(), entrada.nextInt()));
         }
 
@@ -21,7 +21,7 @@ public class Main {
         for (Peliculas peliculas : setPeliculas) {
             System.out.println("Nombre: " + peliculas.getNombre() +
                     "\nDirector: " + peliculas.getDirector() +
-                    "\nAño de extreno : " + peliculas.getExtreno() +
+                    "\nAño de estreno : " + peliculas.getEstreno() +
                     "\n");
         }
     }

@@ -2,16 +2,16 @@ package com.sofka;
 
 public class Peliculas {
 
-    public Peliculas(String nombre, String director, Integer extreno){
+    public Peliculas(String nombre, String director, Integer estreno) {
 
         this.nombre = nombre;
         this.director = director;
-        this.extreno = extreno;
+        this.estreno = estreno;
     }
 
     private String nombre;
     private String director;
-    private Integer extreno;
+    private Integer estreno;
 
 
     public String getNombre() {
@@ -30,12 +30,12 @@ public class Peliculas {
         this.director = director;
     }
 
-    public Integer getExtreno() {
-        return extreno;
+    public Integer getEstreno() {
+        return estreno;
     }
 
-    public void setExtreno(Integer extreno) {
-        this.extreno = extreno;
+    public void setEstreno(Integer estreno) {
+        this.estreno = estreno;
     }
 
     @Override
@@ -43,7 +43,7 @@ public class Peliculas {
         return "Peliculas{" +
                 "nombre='" + nombre + '\'' +
                 ", director='" + director + '\'' +
-                ", extreno=" + extreno +
+                ", estreno=" + estreno +
                 '}';
     }
 }
