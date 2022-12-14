@@ -13,6 +13,7 @@ public class Peliculas {
     private String director;
     private Integer extreno;
 
+
     public String getNombre() {
         return nombre;
     }
